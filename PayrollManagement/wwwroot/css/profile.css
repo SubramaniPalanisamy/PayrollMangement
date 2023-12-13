@@ -1,0 +1,79 @@
+/* profile page */
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital@0;1&family=Archivo+Narrow&family=Dosis:wght@600&family=Merriweather&family=Merriweather+Sans&family=Teko:wght@300&family=Ubuntu&display=swap');
+#profile-header{
+    margin: 0.5em 0 1em 0;
+
+}
+
+
+#header-bg{
+    background-color:#DDDDDD;
+    opacity: 0.4;
+    height: 8em;
+    width: 96vw;
+    margin: 1em 0 0 1em;
+    border-radius: 1em;
+    position: absolute;
+    z-index: -1;
+
+}
+#profile-img{
+    background-image: url("../image/profile-img.png");
+    background-size: contain;
+    width: 9em;
+    height: 9em;
+    margin:2.5em 4em 1em 3em;
+    display: inline-block;
+    border-radius: 50%;
+    color: rgb(255, 170, 170);
+}
+#profile-details{
+    display: inline-block;
+    margin: 1em 0 0 0;
+}
+#profile-name{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5em;
+
+}
+#profile-num{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    color: #797979;
+}
+
+#profile-body{
+    background-color:rgba(221, 221, 221, 0.6); 
+   
+    width: 96vw;
+    margin-left: 1em;
+    margin-top: 1em;
+    border-radius: 1em;
+    padding: 1em;
+    z-index: -2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item-card{
+    font-family: 'Ubuntu', sans-serif;
+    -webkit-backdrop-filter: blur(2em); /* Safari */
+    backdrop-filter: blur(2em);
+    background-color: #ffffff77;
+    width:11em;
+    height: 10em;
+    padding: 1em;
+    margin: 1rem;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card-img{
+    width:5em;
+    height:5em;
+    position: relative;
+    left: 2rem;
+    margin-bottom: 0.5em;
+}
+

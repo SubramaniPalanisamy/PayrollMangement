@@ -1,0 +1,19 @@
+@model Employee
+ @{
+    if(@ViewBag.result == "Registered"){
+        <div>Welcome @ViewBag.name</div>
+    }else if (@ViewBag.result == "Deleted"){
+        <div>Deleted</div>
+    }else if(@ViewBag.update == "Updated"){
+        <div>Updated</div>
+    }else if(@ViewBag.signup == "signedup"){
+        <div>Signed up</div>
+    }
+    else{
+        <div>Fails</div>
+    }
+
+    
+        
+ }
+    

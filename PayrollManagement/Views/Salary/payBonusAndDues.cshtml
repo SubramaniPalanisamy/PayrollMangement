@@ -1,0 +1,112 @@
+@model Salary
+@{
+    Layout = "_Layout";
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Toggle Forms</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<style>
+        .button-div{
+            
+            display:flex;
+            flex-direction:row;
+            position:relative;
+            top:10px;
+            left:45%;
+
+        }
+        button{
+            border:solid 1px white;
+            border-radius:0.2em;
+            background:white;
+            
+        }
+        button.active{
+            border-bottom:solid 4px blue;
+        }
+		form {
+			display: none;
+		}
+		form.active {
+			display: block;
+        }
+        
+	</style>
+</head>
+<body>
+    <div class="button-div">
+        <button onclick="toggleTab('form1','bonus-btn')" id="bonus-btn" class="active">Bonus</button>
+	    <button onclick="toggleTab('form2','dues-btn')" id="dues-btn">Dues</button>
+    </div>
+	<form id="form1" method = "post" asp-action="payBonusAndDues"asp-Controller="Salary"  class="active">
+	<!-- Form 1 inputs -->
+    <div class="container card">
+        <div>
+            <h1>Bonus</h1>
+        </div>
+        <form method = "post"  class="form-container">
+            <div class="mb-3 mt-3">
+                
+                <input  asp-for="EmployeeID" type="number" name="EmployeeID"class="form-control" value=@ViewBag.EmployeeID placeholder="Employee ID" required/>
+                
+            </div>
+            <div class="mb-3">
+                <input asp-for="Bonus" type="number" name="Bonus" class="form-control" placeholder="BonusAmount" required/>
+                
+            </div> 
+            
+            
+            <div><button type="submit" class="btn btn-primary">Pay</button></div>
+        </form>
+    </div>
+	</form>
+
+	<form id="form2" method = "post" asp-action="payBonusAndDues"asp-Controller="Salary">
+		<!-- Form 2 inputs -->
+        <div class="container card">
+        <div>
+            <h1>Dues</h1>
+        </div>
+        <form method = "post" asp-action="payBonusAndDues" class="form-container">
+            <div class="mb-3 mt-3">
+                
+                <input asp-for="EmployeeID" type="number" name="EmployeeID"class="form-control" value=@ViewBag.EmployeeID placeholder="Employee ID" required/>
+                
+            </div>
+            <div class="mb-3">
+                <input asp-for="Dues"  type="number" name="Dues" class="form-control" placeholder="DueAmount" required/>
+                
+            </div> 
+            
+            <div><button type="submit" class="btn btn-primary">Pay</button></div>
+        </form>
+        </div>
+	</form>
+
+	<script>
+
+		function toggleForm(formId) {
+			var form = document.getElementById(formId);
+			var forms = document.getElementsByTagName('form');
+			for (var i = 0; i < forms.length; i++) {
+				forms[i].classList.remove('active');
+			}
+			form.classList.add('active');
+		}
+        function toggleButton(buttonId) {
+			var btn = document.getElementById(buttonId);
+			var buttons = document.getElementsByTagName('button');
+			for (var i = 0; i < buttons.length; i++) {
+				buttons[i].classList.remove('active');
+			}
+			btn.classList.add('active');
+		}
+        function toggleTab(formId,buttonId){
+            toggleForm(formId);
+            toggleButton(buttonId);
+        }
+	</script>
+</body>
+</html>

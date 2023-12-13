@@ -1,0 +1,357 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PayrollManagement.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PayrollManagement.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\ID.png",
+      "PackagePath": "staticwebassets\\image\\ID.png"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\addUser.png",
+      "PackagePath": "staticwebassets\\image\\addUser.png"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\admin.png",
+      "PackagePath": "staticwebassets\\image\\admin.png"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\age-1.png",
+      "PackagePath": "staticwebassets\\image\\age-1.png"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\age.png",
+      "PackagePath": "staticwebassets\\image\\age.png"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\arrow.png",
+      "PackagePath": "staticwebassets\\image\\arrow.png"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\aspire-logo.png",
+      "PackagePath": "staticwebassets\\image\\aspire-logo.png"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\bonus.png",
+      "PackagePath": "staticwebassets\\image\\bonus.png"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\complaints.png",
+      "PackagePath": "staticwebassets\\image\\complaints.png"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\date-1.png",
+      "PackagePath": "staticwebassets\\image\\date-1.png"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\dues.png",
+      "PackagePath": "staticwebassets\\image\\dues.png"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\earnings.png",
+      "PackagePath": "staticwebassets\\image\\earnings.png"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\homebg-1.jpg",
+      "PackagePath": "staticwebassets\\image\\homebg-1.jpg"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\homebg.jpg",
+      "PackagePath": "staticwebassets\\image\\homebg.jpg"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\job.png",
+      "PackagePath": "staticwebassets\\image\\job.png"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\mail.png",
+      "PackagePath": "staticwebassets\\image\\mail.png"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\paybulk.png",
+      "PackagePath": "staticwebassets\\image\\paybulk.png"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\phone.png",
+      "PackagePath": "staticwebassets\\image\\phone.png"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\profile-img.png",
+      "PackagePath": "staticwebassets\\image\\profile-img.png"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\register.webp",
+      "PackagePath": "staticwebassets\\image\\register.webp"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\role.png",
+      "PackagePath": "staticwebassets\\image\\role.png"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\image\\salary.png",
+      "PackagePath": "staticwebassets\\image\\salary.png"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\ASPIRE SYSTEM\\final project copy from one drive\\Subramani _ PayrollManagementSystem\\PayrollManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.PayrollManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.PayrollManagement.props",
+      "PackagePath": "build\\PayrollManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.PayrollManagement.props",
+      "PackagePath": "buildMultiTargeting\\PayrollManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.PayrollManagement.props",
+      "PackagePath": "buildTransitive\\PayrollManagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

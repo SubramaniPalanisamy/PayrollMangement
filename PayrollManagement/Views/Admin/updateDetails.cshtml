@@ -1,0 +1,73 @@
+@using System.Data;
+@model System.Data.DataSet; 
+@{
+    Layout = "_Layout";
+}
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container card">
+    @{
+        foreach(DataRow row in Model.Tables[0].Rows){
+            <form method="post" class="form-container" action="updateDetails">
+                <div>
+                    <h1> Update details </h1>
+                </div>
+                <div class="mb-3 mt-3">
+                    
+                    <input  name="EmployeeID"class="form-control" value=@row[0] placeholder="Enter employee ID"/>
+                    
+                </div>   
+
+                <div class="mb-3">
+                    
+                    <input  name="EmployeeName" class="form-control" value=@row[1] placeholder="Enter employee name"/>
+                    
+                </div> 
+
+                <div class="mb-3">
+                    
+                    <input name="Age" class="form-control" value=@row[2] placeholder="Enter employee age"/>
+                    
+                </div> 
+
+                <div class="mb-3">
+                    <input  name="Salary" class="form-control" value=@row[3] placeholder="Enter employee salary"/>
+                    
+                </div> 
+                
+                <select name="Department" class="form-control" value=@row[4] aria-placeholder="Choose department">
+                    <option value="Developement"> Developement </option>
+                    <option value="Research"> Research </option>
+                    <option value="Testing"> Testing </option>
+                </select>  
+
+                <div class="mb-3">
+                    <input  name="PhoneNumber"  class="form-control" value=@row[5] placeholder="Enter phone number"/>
+                </div>
+                <div class="mb-3">
+                    <input  name="MailId"  class="form-control" value=@row[6] placeholder="Enter mail id"/>
+                    
+                <div>
+                <div>
+                    <input  name="Password"  class="form-control" value=@row[7] placeholder="Enter password"/>
+                </div>
+
+                </div>
+                <div class="mt-3">
+                    <button type="submit" class="btn btn-primary"> Submit </button>
+                </div>
+
+            </form>
+
+        }
+    }
+        
+    </div>
+</body>
+
+@section Scripts{
+
+    <partial name ="_ValidationScriptsPartial"/>
+}

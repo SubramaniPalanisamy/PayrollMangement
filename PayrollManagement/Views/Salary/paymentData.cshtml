@@ -1,0 +1,51 @@
+@model IEnumerable<Salary>
+@{
+    Layout = "_Layout";
+}
+<div class="container text-center">
+    <h1>
+        Payment Details
+    </h1>
+</div>
+<table class="table table-striped text-center" style="margin-left:6em">
+    <tr>
+        <th></th>
+        <th>Employee ID</th>
+        <th>PaymentID</th>
+        <th>SalaryPackage</th>
+        <th>Bonus</th>
+        <th>Dues</th>
+        <th>TotalEarnings</th>
+
+    </tr>
+    
+    @{
+        foreach(var data in @Model)
+        {
+            <tr>
+                <td><a href="@Url.Action("getReport", "Salary", new { EmpID = @data.PaymentID })">
+                    <img src="../image/arrow.png" width="18px" height="18px"/> 
+                </a></td>
+                <td>@data.EmployeeID</td>
+                <td>@data.PaymentID</td>
+                <td>@data.SalaryPackage</td>
+                <td>@data.Bonus</td>
+                <td>@data.Dues</td>              
+                <td>@data.TotalEarnings</td>
+                @* <td><a href="@Url.Action("removeEmployee", "Admin", new { EmpID = @row[0] })"><button type="submit" class="btn btn-primary"> Delete</button></a></td>
+                <td><a href="@Url.Action("updateDetails", "Admin", new { EmpID = @row[0] })"><button type="submit" class="btn btn-outline-primary"> Update</button></a></td> *@
+                
+            </tr>
+            
+        }
+    }
+</table>
+<div>
+    
+</div>
+
+<!-- document.getElementById(""){
+            function close(){
+            document.getElementsByClassName("message").style("display:none")
+        }
+        } -->

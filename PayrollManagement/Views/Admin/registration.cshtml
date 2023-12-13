@@ -1,0 +1,112 @@
+@model Employee
+@{
+    
+    Layout = "_Layout";
+    ViewData["Title"] = "Registration";
+}
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    -->
+
+</head>
+<body>
+    <div class="container card">
+        
+        <div>
+            <h1>Register</h1>
+        </div>
+        @{
+            if(@ViewBag.status == "Exist"){
+                <div class="alert alert-danger alert-dismissible">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    <strong>Alert!</strong>ID already exist.
+                </div>
+            }
+        }
+        
+        
+        <form method="post" class="form-container" enctype="multipart/form-data">
+            <div class="mb-3 mt-3">
+                
+                <input asp-for="EmployeeID"  type="number" name="EmployeeID"class="form-control" placeholder="Employee ID" required/>
+                
+            </div>   
+
+            <div class="mb-3">
+                
+                <input asp-for="EmployeeName" type="text" name="EmployeeName" pattern="^[A-Za-z]+$" Title="only texts are allowed" class="form-control" placeholder="Employee name" required/>
+                @Html.ValidationMessageFor((data => data.EmployeeName),"",new{@class ="text-danger"})
+            </div> 
+
+            <div class="mb-3">
+                <input asp-for="Age" type="number" name="Age" class="form-control" placeholder="Employee age" required/>
+                @Html.ValidationMessageFor((data => data.Age),"",new{@class ="text-danger"})
+            </div> 
+
+            <div class="mb-3">
+                <input asp-for="Salary" type="number" name="Salary" class="form-control" placeholder="Employee salary" required/>
+                @Html.ValidationMessageFor((data => data.Salary),"",new{@class ="text-danger"})
+            </div> 
+            <div>
+                <p>Please select your department:</p>
+                <input type="radio" id="Development" name="Department" value="Development">
+                <label for="Development">Development</label><br>
+                <input type="radio" id="Research" name="Department" value="Research">
+                <label for="Research">Research</label><br>  
+                <input type="radio" id="Testing" name="Department" value="Testing">
+                <label for="Testing">Testing</label><br><br>
+                @Html.ValidationMessageFor((data => data.Department),"",new{@class ="text-danger"})
+            </div>
+            
+            <div class="mb-3 mt-3">
+                <input asp-for="MailId" type="text" name="MailId" class="form-control" placeholder="Enter mail id" required/>
+                 @Html.ValidationMessageFor((data => data.MailId),"",new{@class ="text-danger"})
+            </div>
+            <div class="mb-3">
+                <input asp-for="PhoneNumber" type="PhoneNumber" name="PhoneNumber" class="form-control" placeholder="Phone number" required/>
+                @Html.ValidationMessageFor((data => data.PhoneNumber),"",new{@class ="text-danger"})
+            </div> 
+            <div class="mb-3">
+                <input asp-for="Password" type="password" name="Password" class="form-control" placeholder="Password" required/>
+                 @Html.ValidationMessageFor((data => data.Password),"",new{@class ="text-danger"})
+            </div> 
+           
+            <div>
+                <p>Please select user mode:</p>
+                <input type="radio" id="Admin" name="Usermode" value="Admin">
+                <label for="Admin">Admin</label><br>
+                <input type="radio" id="Employee" name="Usermode" value="Employee">
+                <label for="Employee">Employee</label><br>  
+            </div>
+            <div>
+                <label for="myfile">Upload image</label>
+                <input type="file" id="myfile" name="Image">
+            </div>
+            
+            
+            
+            
+            <div class="mt-3">
+                <button type="submit" class="btn btn-primary"> Submit </button>
+            </div>
+
+    </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+    <script>
+        // Get the HTML element you want to display
+        var content = document.getElementById("alert");
+
+        // Show the content for 5 seconds
+        content.style.display = "block";
+        setTimeout(function() {
+        content.style.display = "none";
+        }, 4000);
+    </script>
+</body>
+
+

@@ -1,0 +1,113 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PayrollManagement
+build_property.RootNamespace = PayrollManagement
+build_property.ProjectDir = E:\ASPIRE SYSTEM\final project copy from one drive\Subramani _ PayrollManagementSystem\PayrollManagement\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\ASPIRE SYSTEM\final project copy from one drive\Subramani _ PayrollManagementSystem\PayrollManagement
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Admin/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5caW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Admin/registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5ccmVnaXN0cmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Admin/removeEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5ccmVtb3ZlRW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Admin/searchEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cc2VhcmNoRW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Admin/status.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cc3RhdHVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Admin/updateDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdXBkYXRlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Admin/viewAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdmlld0FkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Admin/viewComplaints.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdmlld0NvbXBsYWludHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Admin/viewEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdmlld0VtcGxveWVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Employee/getComplaints.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcZ2V0Q29tcGxhaW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Employee/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Employee/profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVccHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Home/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Home/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxsb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Home/status.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzdGF0dXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Salary/manageSalary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJ5XG1hbmFnZVNhbGFyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Salary/payBonusAndDues.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJ5XHBheUJvbnVzQW5kRHVlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Salary/payInBulk.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJ5XHBheUluQnVsay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Salary/paymentData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJ5XHBheW1lbnREYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASPIRE SYSTEM/final project copy from one drive/Subramani _ PayrollManagementSystem/PayrollManagement/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-j4n16mg4wi

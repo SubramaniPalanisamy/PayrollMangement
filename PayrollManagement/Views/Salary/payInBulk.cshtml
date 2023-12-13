@@ -1,0 +1,37 @@
+@{
+    Layout = "_Layout";
+}
+<html>
+    <head>
+        <title>Bulk payment</title>
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    </head>
+    <body>
+    <div class="conatiner card">
+        <div>
+            <h1>Bulk payment</h1>
+        </div>
+        <form method = "post"  class="form-container">
+            <div class="mb-3">
+                <input  type="number" name="Amount" class="form-control" placeholder="Amount" required/>
+                
+            </div> 
+            <div>
+                <p>Please select your department:</p>
+                <input type="radio" id="Development" name="Department" value="Development">
+                <label for="Development">Development</label><br>
+                <input type="radio" id="Research" name="Department" value="Research">
+                <label for="Research">Research</label><br>  
+                <input type="radio" id="Testing" name="Department" value="Testing">
+                <label for="Testing">Testing</label><br><br>
+            </div>
+             <div class="mb-3">
+                <input  type="date" name="CreditDate" class="form-control" placeholder="Credit Date" required/>
+                
+            </div>
+            <div><button type="submit" class="btn btn-primary">Pay</button></div>
+        </form>
+    </div>
+        
+    </body>
+</html>

@@ -1,0 +1,44 @@
+
+@using System.Data
+@model System.Data.DataSet
+@{
+    Layout = "_Layout";
+}
+<div class="container text-center">
+    <h1>
+        View Details
+    </h1>
+</div>
+<table class="table table-striped" style="margin-left:6em">
+    <tr>
+        
+        <th>EMPLOYEE ID</th>
+        <th>Empoloyee name</th>
+        <th>Employee age</th>
+        <th>Employee salary</th>
+        <th>Department</th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+    
+    @{
+        foreach(DataRow row in Model.Tables[0].Rows)
+        {
+            <tr>
+                <td>@row[0]</td>
+                <td>@row[1]</td>
+                <td>@row[2]</td>
+                <td>@row[3]</td>
+                <td>@row[4]</td>
+                <td><a href="@Url.Action("removeAdmin", "Admin", new { EmpID = @row[0] })"><button type="submit" class="btn btn-primary"> Delete</button></a></td>
+                <td><a href="@Url.Action("updateDetails", "Admin", new { EmpID = @row[0] })"><button type="submit" class="btn btn-outline-primary"> Update</button></a></td>
+                <!-- <td><a href="@Url.Action("manageSalary", "Salary", new { EmpID = @row[0] })"><button class="btn btn-outline-danger">Pay</button></a></td> -->
+                
+            </tr>
+            
+        }
+    }
+</table>
+
+

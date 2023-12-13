@@ -1,0 +1,80 @@
+@model IEnumerable<Salary>
+@{
+    Layout = "_Layout";
+}
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="~/site.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="pt-1   text-black  employee-header" style="font-size:2em">
+            welcome !<span style ="font-family:hervetica;margin-left:0.6em">@ViewBag.username</span>  
+        </div>
+        <div class="employee-dashboard">
+            @{
+                foreach(var employee in @Model){
+                    
+                    <div class="card1">
+                        <div class="card2">
+                            <div class="card-content">
+                                <img  src="../image/ID.png" class="cards-img" width="30px"/>
+                                <div class="card-details">@employee.EmployeeID</div>
+                            </div>                         
+                        </div>
+                    </div>
+
+                    @* <div class="card1">
+                        <div class="card2">
+                            <div class="card-content">
+                                <img  src="../image/date-1.png" class="cards-img" width="30px"/>
+                                <div class="card-details">@employee.CreditDate</div>
+                            </div>                         
+                        </div>
+                    </div> *@
+                    <div class="card1">
+                        <div class="card2">
+                            <div class="card-content">
+                                <img  src="../image/earnings.png" class="cards-img" width="30px"/>
+                                <div class="card-details">@employee.TotalEarnings</div>
+                            </div>                         
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <div class="card2">
+                            <div class="card-content">
+                                <img  src="../image/bonus.png" class="cards-img" width="30px"/>
+                                <div class="card-details">@employee.Bonus</div>
+                            </div>                         
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <div class="card2">
+                            <div class="card-content">
+                                <img  src="../image/dues.png" class="cards-img" width="30px"/>
+                                <div class="card-details">@employee.Dues</div>
+                            </div>                         
+                        </div>
+                    </div>
+                    
+                }
+            }
+        </div>
+        
+        
+        
+        <script src="" async defer></script>
+    </body>
+</html>

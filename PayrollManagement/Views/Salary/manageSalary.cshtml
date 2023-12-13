@@ -1,0 +1,46 @@
+@model Salary
+@{
+    Layout = "_Layout";
+}
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+</head>
+<body>
+    <div class="container card">
+        
+        <div>
+            <h1>Payment</h1>
+        </div>
+        <form method="post" class="form-container">
+            <div class="mb-3 mt-3">
+                
+                <input asp-for="EmployeeID"  type="number" name="EmployeeID"class="form-control" value=@ViewBag.EmployeeID placeholder="Employee ID" required/>
+                
+            </div>  
+            <div class="mb-3 mt-3">
+                
+                <input asp-for="PaymentID"  type="number" name="PaymentID" class="form-control" value=@ViewBag.EmployeeID placeholder="Payment ID" required/>
+                
+            </div> 
+
+            <div class="mb-3">
+                
+                <input asp-for="SalaryPackage" type="number" name="SalaryPackage" class="form-control" placeholder="Salary Package (CTC)" required/>
+                
+            </div> 
+            <div class = "mb-3">
+                <input asp-for="accountNumber" type="number" name= "accountNumber" class="form-control" placeholder="Account number"/>
+            </div>
+
+            <div class = "mb-3">
+                <input asp-for="Department" type="text" name= "Department" class="form-control" placeholder="Department" value=@ViewBag.department/>
+            </div>
+            
+            <div class="mt-3">
+                <button type="submit" class="btn btn-primary"> Pay </button>
+            </div>
+
+    </form>
+    </div>
+</body>

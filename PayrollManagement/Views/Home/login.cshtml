@@ -1,0 +1,51 @@
+@model Authentication;
+@{
+    Layout = "_Layout";
+}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+   
+</head>
+<body>
+    <div class="card">
+      <div>
+        <h1>Login</h1>
+      </div>
+      <form class="form-container" method="post">
+        <div class="mb-3 mt-3">
+            <input asp-for="EmployeeID" type="number" class="form-control" placeholder="EmployeeID" required/>
+        </div>    
+
+        <div class="mb-3">
+            <input asp-for="Password" type="password" name="Password" class="form-control" placeholder="Password" required/>
+            @Html.ValidationMessageFor((data => data.Password),"",new{@class ="text-danger"})
+        </div> 
+        <div class="mb-3">
+            
+            <div>
+                <p>Select mode:</p>
+                <input type="radio" id="Admin" name="Usermode" value="Admin">
+                <label for="Admin">Admin</label><br>
+                <input type="radio" id="Employee" name="Usermode" value="Employee">
+                <label for="Employee">Employee</label><br>  
+            </div>
+        </div>
+        
+        <div>
+          <button type="submit" class="button">Login</button>
+        </div>
+        
+      </form>
+      
+    
+</body>
+@section Scripts{
+
+    <partial name ="_ValidationScriptsPartial"/>
+}
+
+</html>

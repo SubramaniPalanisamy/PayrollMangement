@@ -1,0 +1,273 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital@0;1&family=Archivo+Narrow&family=Dosis:wght@600&family=Merriweather&family=Merriweather+Sans&family=Teko:wght@300&display=swap');
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+a{
+  text-decoration: none;
+}
+
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  margin: 0px;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.form-control{
+  border: solid 1px rgb(27, 99, 255);
+}
+.navbar{
+  background-color: black;
+}
+
+.home-bg{
+  background-image: url("../image/homebg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.7;
+  position: absolute;
+  z-index: -1;
+  
+}
+.align-quotes{
+  
+  position: relative;
+  left: 750px;
+  bottom: 65px;
+  width: 20em;
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+  font-family: 'Teko', sans-serif;
+  margin-top: -3em;
+  
+}
+.home-content{
+  
+  padding-top: 4em;
+  text-align: center;
+  width: 20em;
+  font-size: 2em;
+  font-family: 'Teko', sans-serif;
+}
+.home-btn{
+  margin: 2em 0 0 15em;
+}
+
+
+  
+
+
+.user-icon{
+  margin-left: 4em;
+}
+.signin-icon{
+  display: flex;
+  flex-direction:row ;
+  margin:5px 7em 0 15px;
+  position:relative;
+  left:80vw;
+  align-items: center;
+}
+.signout-icon{
+  display: flex;
+  flex-direction:row ;
+  /* margin-left: 30em; */
+  align-items: center;
+  position: relative;
+  left:20vw;
+}
+.emp-signout{
+  display: flex;
+  flex-direction:row ;
+  /* margin-left: 30em; */
+  align-items: center;
+  position: relative;
+  top:2px;
+  right: -43rem;
+}
+
+.message{
+  width: 20em;
+  height: 3em;
+  font-size: 1em;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 0.85;
+  border-radius: 0.3em;
+  margin-bottom: 0.4em;
+  background-color:rgba(255, 81, 81, 0.568) ;
+  color: black;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card{
+  width: 23em;
+  height: fit-content;
+  padding-bottom: 2em;
+  border: solid 1px rgb(27, 99, 255);
+  border-radius: 2em;
+  background-image: linear-gradient(to right, rgba(204, 165, 255, 0.801), rgb(130, 209, 255));
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+ 
+}
+.card div h1{
+  color: #258cfb;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1.5em;
+  margin-top: 2em;
+  text-align: center;
+}
+.form-container{
+  width: 15em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button{
+  height: 2.5rem;
+  width: 5rem;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(27, 99, 255);
+  border-radius: 1.25rem;
+  border: solid 1px rgb(27, 99, 255);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button:hover{
+  background-color: white;
+  color: rgb(27, 99, 255);
+  border:solid 1px rgb(27, 99, 255); ;
+}
+
+/* admin index */
+.admin-header{
+  width: 95vw;
+  
+  border-radius: 0.2em;
+  height: 2.5em;
+  text-align: center;
+  margin-top: 1em;
+  margin-left: 1em;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  border: solid 0.3px rgb(194, 194, 194);
+  box-shadow: -4px -4px 8px -5px rgb(124, 124, 124) inset;
+
+}
+.admin-cards{
+  width: 15em;
+  border-radius: 2em;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 0.3px rgb(194, 194, 194);
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  padding-bottom: 1em;
+  
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap:1em;
+  margin: 2em 2em 1em 10em;
+}
+
+/* Employee page */
+.employee-header{
+  font-size: 2em;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5em;
+  margin-left: 19px;
+}
+
+.employee-dashboard{
+  padding: 2em;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  width:95vw;
+  height:max-content;
+  margin-left: 19px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:2em;
+  justify-content: space-around;
+  
+}
+.card1 {
+  width: 190px;
+  height: 10em;
+  background-image: linear-gradient(163deg, hsl(281, 100%, 48%) 0%, #4201f3 100%);
+  border-radius: 20px;
+  transition: all .3s;
+ }
+ 
+ .card2 {
+  width: 190px;
+  height: 10em;
+  background-color: #fffdfda9;
+  border-radius:18px;
+  transition: all .2s;
+ }
+ 
+ .card2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+ }
+ 
+ .card:hover {
+  box-shadow: 0px 0px 30px 1px rgba(62, 167, 216, 0.849);
+ }
+.cards-img{
+  
+  width: 6em;
+  height: 90px;
+}
+.card-content{
+  padding: 20px 30px 10px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  
+}
+.card-details{
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}

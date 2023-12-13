@@ -1,0 +1,94 @@
+
+@using System.Data
+@model System.Data.DataSet
+@{
+    Layout = "_Layout";
+}
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="~/css/profile.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/site.css">
+    </head>
+    <body>
+
+        <div class="profile-container">
+             @{
+                foreach(DataRow row in Model.Tables[0].Rows)
+                {
+                        <div id="profile-header">
+                            <div id="header-bg"></div>
+                            <span> 
+                                @{
+                                    string imageBase64Data = Convert.ToBase64String((byte[])@row[9]);
+                                    string imageDataURL = string.Format("data:image/*;base64,{0}", imageBase64Data);
+                                    <img src= @imageDataURL id="profile-img"  >
+                                }
+                                    
+                              
+                                
+                            </span>
+                            <div id="profile-details">
+                                <div id="profile-name">@row[1]</div>
+                                <div id="profile-num">@row[0]</div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="@Url.Action("updateDetails","Admin",new{EmpID = @row[0]})"><span class="btn btn-primary text-center mx-5">Edit Profile</span></a>
+                            
+                            
+
+                        </div>
+                        
+                        <div id="profile-body">
+                            <div class="item-card">
+                                <img src="../image/age-1.png" class="card-img" >
+                                <div style="position:relative;top:-5px;right:5px;font-size:1.2rem">Age</div>
+                                <div style="position:relative;top:0px;right:-25px;font-size:1.1rem">@row[2]</div>
+                            </div>
+                            <div class="item-card">
+                                <img src="../image/salary.png" class="card-img" >
+                                <div style="position:relative;top:-5px;right:5px;font-size:1.2rem">Salary</div>
+                                <div style="position:relative;top:0px;right:-25px;font-size:1.1rem">@row[3]</div>
+                            
+                            </div>
+                            <div class="item-card">
+                                <img src="../image/job.png" class="card-img" >
+                                <div style="position:relative;top:-5px;right:5px;font-size:1.2rem">Job Role</div>
+                                <div style="position:relative;top:0px;right:-25px;font-size:1.1rem">@row[4]</div>
+                            
+                            </div>
+                             <div class="item-card">
+                                <img src="../image/phone.png" class="card-img" >
+                                <div style="position:relative;top:-5px;right:5px;font-size:1.2rem">Phone Number</div>
+                                <div style="position:relative;top:0px;right:-25px;font-size:1.1rem">@row[5]</div>
+                            </div>
+                            <div class="item-card">
+                                <img src="../image/mail.png" class="card-img" >
+                                <div style="position:relative;top:-5px;right:5px;font-size:1.2rem">Mail ID</div>
+                                <div style="position:relative;top:0px;right:10px;font-size:0.8em">@row[6]</div>
+                            </div>
+                            <div class="item-card">
+                                <img src="../image/role.png" class="card-img" >
+                                <div style="position:relative;top:-5px;right:5px;font-size:1.2rem">Role</div>
+                                <div style="position:relative;top:0px;right:-25px;font-size:1.1rem">@row[8]</div>
+                            </div>
+                            
+                        </div>  
+                }
+            }
+            
+        </div>
+       
+        
+       
+        
+        <script src="" async defer></script>
+    </body>
+</html>

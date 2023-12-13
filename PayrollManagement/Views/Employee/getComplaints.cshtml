@@ -1,0 +1,33 @@
+@model ComplaintsModel
+@{
+    Layout = "_Layout";
+}
+<html>
+<head>
+    <title>
+     Complaints page
+    </title>
+</head>
+<body>
+    <div class="card">
+      <div>
+        <h1>Complaints</h1>
+      </div>
+      <form class="form-container" method="post">
+        <div class="mb-3 mt-3">
+            <input asp-for="employeeID"  name="employeeID" type="number" class="form-control" placeholder="EmployeeID" required/>
+        </div>    
+
+        <div class="mb-3">
+            <input asp-for="complaint" type="text-area" name="complaint" class="form-control" placeholder="Enter your complaints" required/>
+            
+        </div> 
+        
+        
+        <div>
+          <button type="submit" class="button">Send</button>
+        </div>
+        
+      </form>
+</body>
+</html>
